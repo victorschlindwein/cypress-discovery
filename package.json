@@ -1,0 +1,16 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Testes de estudo QA Ninja",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Victor Schlindwein",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}

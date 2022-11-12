@@ -1,0 +1,52 @@
+{
+  "signup": {
+    "name": "vitor luiz rovaris",
+    "cpf": "00000014141",
+    "email": "vitorluizfutebol@hotmail.com",
+     "whatsapp": "47999999999",
+     "address": {
+       "postalcode": "88351250",
+       "street": "Rua Alois Moritz",
+       "number": "8493",
+       "details": "apto 225",
+       "district": "São Luiz",
+       "city_state": "Brusque/SC"
+     },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  },
+
+  "cpf_inv": {
+    "name": "vitor luiz cpf",
+    "cpf": "000000141AB",
+    "email": "vitorluizfutebol@hotmail.com",
+    "whatsapp": "47999999999",
+    "address": {
+      "postalcode": "88351250",
+      "street": "Rua Alois Moritz",
+      "number": "8493",
+      "details": "apto 225",
+      "district": "São Luiz",
+      "city_state": "Brusque/SC"
+    },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  },
+
+  "email_inv": {
+    "name": "vitor luiz email",
+    "cpf": "00000014141",
+    "email": "vitorluizfutebol.com",
+     "whatsapp": "47999999999",
+     "address": {
+       "postalcode": "88351250",
+       "street": "Rua Alois Moritz",
+       "number": "8493",
+       "details": "apto 225",
+       "district": "São Luiz",
+       "city_state": "Brusque/SC"
+     },
+    "delivery_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  }
+}

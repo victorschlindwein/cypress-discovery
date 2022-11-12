@@ -1,8 +1,6 @@
 class SignupPage {
   go() {
-    cy.viewport(1440, 900)
-    cy.visit('https://buger-eats.vercel.app/')
-
+    cy.visit('/')
     cy.get('a[href="/deliver"]').click()
     cy.get('#page-deliver form h1').should(
       'have.text',
@@ -11,7 +9,7 @@ class SignupPage {
   }
 
   fillForm(deliver) {
-    cy.get('input[name="name"]').type(deliver.name)
+    cy.get('input[name="fullName"]').type(deliver.name)
     cy.get('input[name="cpf"]').type(deliver.cpf)
     cy.get('input[name="email"]').type(deliver.email)
     cy.get('input[name="whatsapp"]').type(deliver.whatsapp)
@@ -52,4 +50,4 @@ class SignupPage {
   }
 }
 
-export default SignupPage
+export default new SignupPage()
